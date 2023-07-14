@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kartikey Gupta | Software Developer</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <!-  Bootstrap CSS ->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" /> 
+    <!-- Font awesome -->      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <!-- Hover CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha256-c+C87jupO1otD1I5uyxV68WmSLCqtIoNlcHLXtzLCT0=" crossorigin="anonymous" />
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/CSS/dark/contact.css" type="text/css" />
+
+</head>
+
+<body>
+    <!-- Introduction and access to resume, contact, interests, GitHub Repo & personal cv -->
+    <header class="container-fluid">
+        <div class="row">
+            <a class="col-md-4 logo" href="index.html"></a>
+            
+            <div class="col-md-8">
+                <div class="row bg-color-name-title">
+                    <div class="heading">
+                        <h1 class="name">Kartikey Gupta</h1>
+                        <h2 class="title">Full Stack Developer</h2>
+                            <div class="toggle pb-4">
+                                      <span class="active-toggle">Dark</span>
+                                  </div>
+                    </div>
+                </div>
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
+                        <div Class="col-lg-2 ul-menu-color-Home menuitem">
+                            <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                        </div>
+                        <div Class="col-lg-2 ul-menu-color-Resume menuitem">
+                            <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                        </div>
+                        <div Class="col-lg-2 ul-menu-color-Contact menuitem">
+                            <a href="contact.html" class="hvr-sweep-to-bottom"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+                        </div>
+                        <div Class="col-lg-2 ul-menu-color-Interests menuitem">
+                            <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-cog" aria-hidden="true"></i><span>Interests</span></a>
+                        </div>
+                        <div Class="col-lg-2 ul-menu-color-GitHub menuitem">
+                            <a href="github.html" class="hvr-sweep-to-bottom"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                        </div>
+                        <div Class="col-lg-2 ul-menu-color-DownloadCV menuitem">
+                            <a href="https://drive.google.com/file/d/1tIqsVPVTaLGtmQZDkXI4v_y0L9IS_oFL/view?usp=sharing" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download<br>CV</span></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+
+    <!-- Personal Information -->
+    <section class="pt-3 pb-3 container-fluid bg-color-contact text-center">
+        <h3 class="contact-heading uppercase"> Got a project in mind?</h3>
+        <h5 class="uppercase"> Lets work together</h5>
+            
+        <div class="center-form">
+            <form onsubmit="return sendMail(this);" method="POST">
+                <input type="text" name="name" class="form-control" id="full name" placeholder="Full Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Enter your communication email address" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description"></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row px-5 py-5">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block full-stack">
+                    A Full Stack Web Developer who graduated with <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/15733793" target="_blank"
+                    rel="noopener">1st Class Honours Diploma</a>, credit rated by Edinburgh Napier
+                    University.<br> Skilled in everything from HTML to Heroku. Demonstrates capability for
+                    strategic, structural and design thinking.
+                </p>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h5 class="uppercase general-sub">Download My CV</h5>
+                <p class="inline-block">
+                    Need a printable version of my CV?<br> Download it here.
+                    <a href="https://drive.google.com/file/d/1tIqsVPVTaLGtmQZDkXI4v_y0L9IS_oFL/view?usp=sharing" target="_blank" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i></a>
+                </p>
+
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <h5 class="uppercase general-sub">MySocial</h5>
+                <ul class="list-group list-group-horizontal social-links">
+                    <li class="pr-2"><a href="https://www.linkedin.com/in/kartikey-gupta-015a56194/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Kartikeyg03012" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+            <div class="pt-1 pb-2 col-12 text-center lower-footer">
+                <small>Kartikey Gupta | <span id="fullstack-years"></span> | Full Stack Developer</small>
+            </div>
+
+    </footer>
+
+<!-- JS Library for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha256-OFRAJNoaD8L3Br5lglV7VyLRf0itmoBzWUoM+Sji4/8=" crossorigin="anonymous"></script>
+
+<!-- Javascript Email Files -->    
+<script src="assets/js/sendEmail.js"></script>
+
+<!-- Personal JS -->
+    <script src="assets/js/main.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_9EDARjEMaJroZYkbVis2f");
+        })();
+    </script>
+
+<!-- Personal JS -->
+    <script src="assets/js/main.js"></script>
+    
+<!-- Toggle function JS -->
+    <script>
+      $(".active-toggle").on("click", function () {
+        if ($("html").hasClass("dark-contact")) {
+          $("html").removeClass("dark-contact");
+          $(".active-toggle").text("Dark");
+        } else {
+          $("html").addClass("dark-contact");
+          $(".active-toggle").text("Light");
+          
+        }
+      });
+    </script>
+
+</body>
+
+</html>

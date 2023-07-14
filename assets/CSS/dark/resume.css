@@ -1,0 +1,172 @@
+/*-------- Toggle Function ----------*/
+
+.toggle {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.active-toggle {
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid #333333;
+  border-radius: 0.5rem;
+  width: 5rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  background: #333333;
+  color: #F2F2F2;
+}
+
+.dark-resume .active-toggle {
+    border: 3px solid #BB86FC;
+    color: #fff;
+    background: none; 
+}
+
+/*--------- Name, Title & Background---------*/ 
+
+.dark-resume .bg-color-name-title {
+    background-color: #333333;
+    background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
+}
+
+/*--------- Navigation Menu ---------*/
+
+.dark-resume .ul-menu-color-Home,
+.dark-resume .ul-menu-color-Resume,
+.dark-resume .ul-menu-color-Contact,
+.dark-resume .ul-menu-color-Interests,
+.dark-resume .ul-menu-color-GitHub,
+.dark-resume .ul-menu-color-DownloadCV {
+    background-color: #333333;
+}
+
+.dark-resume .ul-menu-color-Home,
+.dark-resume .ul-menu-color-Resume,
+.dark-resume .ul-menu-color-Contact,
+.dark-resume .ul-menu-color-Interests,
+.dark-resume .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-resume .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-resume .fa-home,
+.dark-resume .fa-graduation-cap,
+.dark-resume .fa-comment,
+.dark-resume .fa-cog,
+.dark-resume .fa-github,
+.dark-resume .fa-download {
+    color: #BB86FC;
+}
+
+.dark-resume .menuitem span {
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+/*------ Work History ------*/
+
+.dark-resume .bg-color-Work-History {
+  background-color: #333333;
+  color: #F2F2F2;
+}
+
+.dark-resume .timeline-item::after {
+  background: #BB86FC;
+}
+
+/*------ My Skills ------*/
+
+.dark-resume .bg-color-three-reasons {
+    background-color: #333333;
+}
+
+.dark-resume .section-heading,
+.dark-resume .uppercase,
+.dark-resume .dark-skill {
+    color: #F2F2F2;
+}
+
+.dark-resume .fa-tv,
+.dark-resume .fa-cogs,
+.dark-resume .fa-database,
+.dark-resume .section-heading a,
+.dark-resume .tech-skill {
+    color: #BB86FC;
+}
+
+.dark-resume .flip-card-front {
+    background: #333333;
+}
+
+.dark-resume .flip-card-back {
+    background: #333333;
+    color: #F2F2F2;
+}
+
+.dark-resume .soft-skill-header {
+    background: #333333;
+}
+
+.dark-resume .soft-skill-header,
+.dark-resume .table,
+.dark-resume .dark-attribute,
+.dark-resume .dark-title {
+    color: #F2F2F2;
+}
+
+.dark-resume .dot {
+    background-color: #BB86FC;
+}
+
+.dark-resume .empty-dot {
+    border: 2px solid #BB86FC;
+}
+
+/*------- Projects --------*/
+
+.dark-resume .overlay {
+    background-color: #333333;
+    border: 3px solid #4d4d4d;
+}
+
+.dark-resume .project-text {
+    color: #F2F2F2;
+}
+
+.dark-resume .fa-bolt {
+    color: #BB86FC;
+}
+
+.dark-resume .dark-portfolio {
+    border-top: 2px solid #4d4d4d;
+}
+
+/*-------- Footer ---------*/
+
+.dark-resume footer {
+    background-color: #333333;
+    color: #F2F2F2;
+    border-top: 2px solid #4d4d4d;
+}
+
+.dark-resume footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-resume .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-resume .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
+}

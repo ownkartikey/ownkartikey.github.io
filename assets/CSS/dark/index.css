@@ -1,0 +1,126 @@
+/*-------- Toggle Function ----------*/
+
+.toggle {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.active-toggle {
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid #333333;
+  border-radius: 0.5rem;
+  width: 5rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.1875rem;
+  background: #333333;
+  color: #F2F2F2;
+}
+
+.dark-home .active-toggle {
+    border: 3px solid #BB86FC;
+    color: #fff;
+    background: none; 
+}
+
+/*--------- Name, Title & Background---------*/ 
+
+.dark-home .bg-color-name-title {
+    background-color: #333333;
+    background-image: linear-gradient(to right, #333333, #4d4d4d, #666666, #808080, #999999, #b3b3b3);
+}
+
+/*--------- Navigation Menu ---------*/
+
+.dark-home .ul-menu-color-Home,
+.dark-home .ul-menu-color-Resume,
+.dark-home .ul-menu-color-Contact,
+.dark-home .ul-menu-color-Interests,
+.dark-home .ul-menu-color-GitHub,
+.dark-home .ul-menu-color-DownloadCV {
+    background-color: #333333;
+}
+
+.dark-home .ul-menu-color-Home,
+.dark-home .ul-menu-color-Resume,
+.dark-home .ul-menu-color-Contact,
+.dark-home .ul-menu-color-Interests,
+.dark-home .ul-menu-color-GitHub {
+    border-right: 2px solid #4d4d4d;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-home .ul-menu-color-DownloadCV {
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-home .fa-home,
+.dark-home .fa-graduation-cap,
+.dark-home .fa-comment,
+.dark-home .fa-cog,
+.dark-home .fa-github,
+.dark-home .fa-download {
+    color: #BB86FC;
+}
+
+.dark-home .menuitem span {
+    color: #F2F2F2;
+    font-weight: 500;
+}
+
+/*--------- Personal Information ---------*/ 
+
+.dark-home .bg-color-personal-info {
+    background-color: #333333;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-home .section-heading,
+.dark-home .personal-info-item {
+    color: #F2F2F2;
+}
+
+/*--------- About Me --------*/
+
+.dark-home .bg-color-three-reasons {
+    background-color: #333333;
+    border-bottom: 2px solid #4d4d4d;
+}
+
+.dark-home .three-reasons-heading,
+.dark-home .certified,
+.dark-home .dark-how,
+.dark-home .dark-why {
+    color: #F2F2F2;
+}
+
+.dark-home .fa-question,
+.dark-home .fa-thumbs-up,
+.dark-home .fa-eye,
+.dark-home .certified a {
+    color: #BB86FC;
+}
+
+/*-------- Footer ---------*/
+
+.dark-home footer {
+    background-color: #333333;
+    color: #F2F2F2;
+}
+
+.dark-home footer .cv-pdf i:hover {
+    color: #BB86FC;
+}
+
+.dark-home .full-stack a:hover {
+    color: #BB86FC;
+}
+
+/*----- Social Media -----*/
+
+.dark-home .social-links li a i {
+    background: #BB86FC;
+    color: #333333;
+    font-size: 1rem;
+}
