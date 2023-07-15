@@ -1,8 +1,8 @@
 # Resume | Kartikey Gupta | Full Stack Developer 
 
-[Direct link to GitHub](https://github.com/Kartikeyg03012/resume)
+[Direct link to GitHub](https://github.com/ownkartikey/resume)
 
-[Direct link to live resume](https://Kartikeyg03012.github.io/resume/)
+[Direct link to live resume](https://ownkartikey.github.io/resume/)
 
 ***
 
@@ -60,7 +60,7 @@ committment to a career change from a Business Operations Management Consultant 
 ### Wireframes
 My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Resume' website responsivenesson mobile, tablet and desktop devices.
 
-•	[Resume](https://github.com/Kartikeyg03012/resume/blob/master/wireframes/resumefinal.zip)
+•	[Resume](https://github.com/ownkartikey/resume/blob/master/wireframes/resumefinal.zip)
 
 ### User Stories
 * To create a 'one stop shop' for all information to showcase a developers profile
@@ -309,10 +309,10 @@ min-width 700px & portrait  | Desktop | `.project-text` | `font-size: 0.95rem`
 ## Deployment
 This project was developed using the [AWS Cloud9](https://aws.amazon.com/cloud9/) IDE, committed to git and pushed to GitHub using the built in function within cloud9.
 
-To deploy resume to GitHub Pages from its [GitHub repository](https://github.com/Kartikeyg03012/resume), the following steps were taken:
+To deploy resume to GitHub Pages from its [GitHub repository](https://github.com/ownkartikey/resume), the following steps were taken:
 
 1. Log into GitHub.
-2. From the list of repositories on the screen, select **Kartikeyg03012 / resume**
+2. From the list of repositories on the screen, select **ownkartikey / resume**
 3. From the menu items near the top of the page, select **Settings**
 4. Scroll down to the **GitHub Pages** section
 5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
@@ -322,7 +322,7 @@ To deploy resume to GitHub Pages from its [GitHub repository](https://github.com
 ### How to run this project locally 
 To clone this project from GitHub:
 
-1. Follow this link to the [resume GitHub repository](https://github.com/Kartikeyg03012/resume)
+1. Follow this link to the [resume GitHub repository](https://github.com/ownkartikey/resume)
 2. Under the repository name, click **Clone or download**
 3. In the Clone with HTTPs section, **copy the clone URL** for the repository
 4. In your local IDE open a new terminal in Ubuntu Bash
@@ -341,7 +341,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Media
 - Software logo's appearing in resume.html page sourced from [Google images](https://www.google.com/search?q=software+icon+images&tbm=isch&chips=q:software+icon+images,g_1:logo:cKWIH1cHXB4%3D&rlz=1C1CHBF_enGB853GB853&hl=en-GB&ved=2ahUKEwiM6P_bmtnoAhUi2OAKHX08CxcQ4lYoBnoECAEQHw&biw=1903&bih=969) 
-- My Portfolio images appearing in resume.html sourced from developers [GitHub Repo](https://github.com/Kartikeyg03012)
+- My Portfolio images appearing in resume.html sourced from developers [GitHub Repo](https://github.com/ownkartikey)
 - Map appearing in interests.html sourced from [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ### Acknowledgements
